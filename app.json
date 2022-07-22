@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "getBarber",
+    "slug": "getBarber",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
