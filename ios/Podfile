@@ -32,6 +32,10 @@ target 'getBarber' do
   # if !ENV['CI']
   #   use_flipper!()
   # end
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
 
   post_install do |installer|
     react_native_post_install(installer)
